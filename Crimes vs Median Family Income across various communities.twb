@@ -1,0 +1,3040 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20204.21.0114.0916                               -->
+<workbook original-version='18.1' source-build='2020.4.1 (20204.21.0114.0916)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='communities (CommunitiesDataSet)' inline='true' name='federated.06s07541bds4b111tf4vd1ejy2sl' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='CommunitiesDataSet' name='excel-direct.1b815vg10qkw1l1ar8hkz0f33buj'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/divzs/OneDrive/Documents/Data Stats/Project/CommunitiesDataSet.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1b815vg10qkw1l1ar8hkz0f33buj' name='communities' table='[communities$]' type='table'>
+          <columns gridOrigin='A1:DX1995:no:A1:DX1995:0' header='yes' outcome='2'>
+            <column datatype='integer' name='state' ordinal='0' />
+            <column datatype='string' name='county' ordinal='1' />
+            <column datatype='string' name='community' ordinal='2' />
+            <column datatype='string' name='communityname' ordinal='3' />
+            <column datatype='integer' name='fold' ordinal='4' />
+            <column datatype='real' name='population' ordinal='5' />
+            <column datatype='real' name='householdsize' ordinal='6' />
+            <column datatype='real' name='racepctblack' ordinal='7' />
+            <column datatype='real' name='racePctWhite' ordinal='8' />
+            <column datatype='real' name='racePctAsian' ordinal='9' />
+            <column datatype='real' name='racePctHisp' ordinal='10' />
+            <column datatype='real' name='agePct12t21' ordinal='11' />
+            <column datatype='real' name='agePct12t29' ordinal='12' />
+            <column datatype='real' name='agePct16t24' ordinal='13' />
+            <column datatype='real' name='agePct65up' ordinal='14' />
+            <column datatype='real' name='numbUrban' ordinal='15' />
+            <column datatype='real' name='pctUrban' ordinal='16' />
+            <column datatype='real' name='medIncome' ordinal='17' />
+            <column datatype='real' name='pctWWage' ordinal='18' />
+            <column datatype='real' name='pctWFarmSelf' ordinal='19' />
+            <column datatype='real' name='pctWInvInc' ordinal='20' />
+            <column datatype='real' name='pctWSocSec' ordinal='21' />
+            <column datatype='real' name='pctWPubAsst' ordinal='22' />
+            <column datatype='real' name='pctWRetire' ordinal='23' />
+            <column datatype='real' name='medFamInc' ordinal='24' />
+            <column datatype='real' name='perCapInc' ordinal='25' />
+            <column datatype='real' name='whitePerCap' ordinal='26' />
+            <column datatype='real' name='blackPerCap' ordinal='27' />
+            <column datatype='real' name='indianPerCap' ordinal='28' />
+            <column datatype='real' name='AsianPerCap' ordinal='29' />
+            <column datatype='real' name='OtherPerCap' ordinal='30' />
+            <column datatype='real' name='HispPerCap' ordinal='31' />
+            <column datatype='real' name='NumUnderPov' ordinal='32' />
+            <column datatype='real' name='PctPopUnderPov' ordinal='33' />
+            <column datatype='real' name='PctLess9thGrade' ordinal='34' />
+            <column datatype='real' name='PctNotHSGrad' ordinal='35' />
+            <column datatype='real' name='PctBSorMore' ordinal='36' />
+            <column datatype='real' name='PctUnemployed' ordinal='37' />
+            <column datatype='real' name='PctEmploy' ordinal='38' />
+            <column datatype='real' name='PctEmplManu' ordinal='39' />
+            <column datatype='real' name='PctEmplProfServ' ordinal='40' />
+            <column datatype='real' name='PctOccupManu' ordinal='41' />
+            <column datatype='real' name='PctOccupMgmtProf' ordinal='42' />
+            <column datatype='real' name='MalePctDivorce' ordinal='43' />
+            <column datatype='real' name='MalePctNevMarr' ordinal='44' />
+            <column datatype='real' name='FemalePctDiv' ordinal='45' />
+            <column datatype='real' name='TotalPctDiv' ordinal='46' />
+            <column datatype='real' name='PersPerFam' ordinal='47' />
+            <column datatype='real' name='PctFam2Par' ordinal='48' />
+            <column datatype='real' name='PctKids2Par' ordinal='49' />
+            <column datatype='real' name='PctYoungKids2Par' ordinal='50' />
+            <column datatype='real' name='PctTeen2Par' ordinal='51' />
+            <column datatype='real' name='PctWorkMomYoungKids' ordinal='52' />
+            <column datatype='real' name='PctWorkMom' ordinal='53' />
+            <column datatype='real' name='NumIlleg' ordinal='54' />
+            <column datatype='real' name='PctIlleg' ordinal='55' />
+            <column datatype='real' name='NumImmig' ordinal='56' />
+            <column datatype='real' name='PctImmigRecent' ordinal='57' />
+            <column datatype='real' name='PctImmigRec5' ordinal='58' />
+            <column datatype='real' name='PctImmigRec8' ordinal='59' />
+            <column datatype='real' name='PctImmigRec10' ordinal='60' />
+            <column datatype='real' name='PctRecentImmig' ordinal='61' />
+            <column datatype='real' name='PctRecImmig5' ordinal='62' />
+            <column datatype='real' name='PctRecImmig8' ordinal='63' />
+            <column datatype='real' name='PctRecImmig10' ordinal='64' />
+            <column datatype='real' name='PctSpeakEnglOnly' ordinal='65' />
+            <column datatype='real' name='PctNotSpeakEnglWell' ordinal='66' />
+            <column datatype='real' name='PctLargHouseFam' ordinal='67' />
+            <column datatype='real' name='PctLargHouseOccup' ordinal='68' />
+            <column datatype='real' name='PersPerOccupHous' ordinal='69' />
+            <column datatype='real' name='PersPerOwnOccHous' ordinal='70' />
+            <column datatype='real' name='PersPerRentOccHous' ordinal='71' />
+            <column datatype='real' name='PctPersOwnOccup' ordinal='72' />
+            <column datatype='real' name='PctPersDenseHous' ordinal='73' />
+            <column datatype='real' name='PctHousLess3BR' ordinal='74' />
+            <column datatype='real' name='MedNumBR' ordinal='75' />
+            <column datatype='real' name='HousVacant' ordinal='76' />
+            <column datatype='real' name='PctHousOccup' ordinal='77' />
+            <column datatype='real' name='PctHousOwnOcc' ordinal='78' />
+            <column datatype='real' name='PctVacantBoarded' ordinal='79' />
+            <column datatype='real' name='PctVacMore6Mos' ordinal='80' />
+            <column datatype='real' name='MedYrHousBuilt' ordinal='81' />
+            <column datatype='real' name='PctHousNoPhone' ordinal='82' />
+            <column datatype='real' name='PctWOFullPlumb' ordinal='83' />
+            <column datatype='real' name='OwnOccLowQuart' ordinal='84' />
+            <column datatype='real' name='OwnOccMedVal' ordinal='85' />
+            <column datatype='real' name='OwnOccHiQuart' ordinal='86' />
+            <column datatype='real' name='RentLowQ' ordinal='87' />
+            <column datatype='real' name='RentMedian' ordinal='88' />
+            <column datatype='real' name='RentHighQ' ordinal='89' />
+            <column datatype='real' name='MedRent' ordinal='90' />
+            <column datatype='real' name='MedRentPctHousInc' ordinal='91' />
+            <column datatype='real' name='MedOwnCostPctInc' ordinal='92' />
+            <column datatype='real' name='MedOwnCostPctIncNoMtg' ordinal='93' />
+            <column datatype='real' name='NumInShelters' ordinal='94' />
+            <column datatype='real' name='NumStreet' ordinal='95' />
+            <column datatype='real' name='PctForeignBorn' ordinal='96' />
+            <column datatype='real' name='PctBornSameState' ordinal='97' />
+            <column datatype='real' name='PctSameHouse85' ordinal='98' />
+            <column datatype='real' name='PctSameCity85' ordinal='99' />
+            <column datatype='real' name='PctSameState85' ordinal='100' />
+            <column datatype='string' name='LemasSwornFT' ordinal='101' />
+            <column datatype='string' name='LemasSwFTPerPop' ordinal='102' />
+            <column datatype='string' name='LemasSwFTFieldOps' ordinal='103' />
+            <column datatype='string' name='LemasSwFTFieldPerPop' ordinal='104' />
+            <column datatype='string' name='LemasTotalReq' ordinal='105' />
+            <column datatype='string' name='LemasTotReqPerPop' ordinal='106' />
+            <column datatype='string' name='PolicReqPerOffic' ordinal='107' />
+            <column datatype='string' name='PolicPerPop' ordinal='108' />
+            <column datatype='string' name='RacialMatchCommPol' ordinal='109' />
+            <column datatype='string' name='PctPolicWhite' ordinal='110' />
+            <column datatype='string' name='PctPolicBlack' ordinal='111' />
+            <column datatype='string' name='PctPolicHisp' ordinal='112' />
+            <column datatype='string' name='PctPolicAsian' ordinal='113' />
+            <column datatype='string' name='PctPolicMinor' ordinal='114' />
+            <column datatype='string' name='OfficAssgnDrugUnits' ordinal='115' />
+            <column datatype='string' name='NumKindsDrugsSeiz' ordinal='116' />
+            <column datatype='string' name='PolicAveOTWorked' ordinal='117' />
+            <column datatype='real' name='LandArea' ordinal='118' />
+            <column datatype='real' name='PopDens' ordinal='119' />
+            <column datatype='real' name='PctUsePubTrans' ordinal='120' />
+            <column datatype='string' name='PolicCars' ordinal='121' />
+            <column datatype='string' name='PolicOperBudg' ordinal='122' />
+            <column datatype='string' name='LemasPctPolicOnPatr' ordinal='123' />
+            <column datatype='string' name='LemasGangUnitDeploy' ordinal='124' />
+            <column datatype='real' name='LemasPctOfficDrugUn' ordinal='125' />
+            <column datatype='string' name='PolicBudgPerPop' ordinal='126' />
+            <column datatype='real' name='ViolentCrimesPerPop' ordinal='127' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1b815vg10qkw1l1ar8hkz0f33buj' name='communities' table='[communities$]' type='table'>
+          <columns gridOrigin='A1:DX1995:no:A1:DX1995:0' header='yes' outcome='2'>
+            <column datatype='integer' name='state' ordinal='0' />
+            <column datatype='string' name='county' ordinal='1' />
+            <column datatype='string' name='community' ordinal='2' />
+            <column datatype='string' name='communityname' ordinal='3' />
+            <column datatype='integer' name='fold' ordinal='4' />
+            <column datatype='real' name='population' ordinal='5' />
+            <column datatype='real' name='householdsize' ordinal='6' />
+            <column datatype='real' name='racepctblack' ordinal='7' />
+            <column datatype='real' name='racePctWhite' ordinal='8' />
+            <column datatype='real' name='racePctAsian' ordinal='9' />
+            <column datatype='real' name='racePctHisp' ordinal='10' />
+            <column datatype='real' name='agePct12t21' ordinal='11' />
+            <column datatype='real' name='agePct12t29' ordinal='12' />
+            <column datatype='real' name='agePct16t24' ordinal='13' />
+            <column datatype='real' name='agePct65up' ordinal='14' />
+            <column datatype='real' name='numbUrban' ordinal='15' />
+            <column datatype='real' name='pctUrban' ordinal='16' />
+            <column datatype='real' name='medIncome' ordinal='17' />
+            <column datatype='real' name='pctWWage' ordinal='18' />
+            <column datatype='real' name='pctWFarmSelf' ordinal='19' />
+            <column datatype='real' name='pctWInvInc' ordinal='20' />
+            <column datatype='real' name='pctWSocSec' ordinal='21' />
+            <column datatype='real' name='pctWPubAsst' ordinal='22' />
+            <column datatype='real' name='pctWRetire' ordinal='23' />
+            <column datatype='real' name='medFamInc' ordinal='24' />
+            <column datatype='real' name='perCapInc' ordinal='25' />
+            <column datatype='real' name='whitePerCap' ordinal='26' />
+            <column datatype='real' name='blackPerCap' ordinal='27' />
+            <column datatype='real' name='indianPerCap' ordinal='28' />
+            <column datatype='real' name='AsianPerCap' ordinal='29' />
+            <column datatype='real' name='OtherPerCap' ordinal='30' />
+            <column datatype='real' name='HispPerCap' ordinal='31' />
+            <column datatype='real' name='NumUnderPov' ordinal='32' />
+            <column datatype='real' name='PctPopUnderPov' ordinal='33' />
+            <column datatype='real' name='PctLess9thGrade' ordinal='34' />
+            <column datatype='real' name='PctNotHSGrad' ordinal='35' />
+            <column datatype='real' name='PctBSorMore' ordinal='36' />
+            <column datatype='real' name='PctUnemployed' ordinal='37' />
+            <column datatype='real' name='PctEmploy' ordinal='38' />
+            <column datatype='real' name='PctEmplManu' ordinal='39' />
+            <column datatype='real' name='PctEmplProfServ' ordinal='40' />
+            <column datatype='real' name='PctOccupManu' ordinal='41' />
+            <column datatype='real' name='PctOccupMgmtProf' ordinal='42' />
+            <column datatype='real' name='MalePctDivorce' ordinal='43' />
+            <column datatype='real' name='MalePctNevMarr' ordinal='44' />
+            <column datatype='real' name='FemalePctDiv' ordinal='45' />
+            <column datatype='real' name='TotalPctDiv' ordinal='46' />
+            <column datatype='real' name='PersPerFam' ordinal='47' />
+            <column datatype='real' name='PctFam2Par' ordinal='48' />
+            <column datatype='real' name='PctKids2Par' ordinal='49' />
+            <column datatype='real' name='PctYoungKids2Par' ordinal='50' />
+            <column datatype='real' name='PctTeen2Par' ordinal='51' />
+            <column datatype='real' name='PctWorkMomYoungKids' ordinal='52' />
+            <column datatype='real' name='PctWorkMom' ordinal='53' />
+            <column datatype='real' name='NumIlleg' ordinal='54' />
+            <column datatype='real' name='PctIlleg' ordinal='55' />
+            <column datatype='real' name='NumImmig' ordinal='56' />
+            <column datatype='real' name='PctImmigRecent' ordinal='57' />
+            <column datatype='real' name='PctImmigRec5' ordinal='58' />
+            <column datatype='real' name='PctImmigRec8' ordinal='59' />
+            <column datatype='real' name='PctImmigRec10' ordinal='60' />
+            <column datatype='real' name='PctRecentImmig' ordinal='61' />
+            <column datatype='real' name='PctRecImmig5' ordinal='62' />
+            <column datatype='real' name='PctRecImmig8' ordinal='63' />
+            <column datatype='real' name='PctRecImmig10' ordinal='64' />
+            <column datatype='real' name='PctSpeakEnglOnly' ordinal='65' />
+            <column datatype='real' name='PctNotSpeakEnglWell' ordinal='66' />
+            <column datatype='real' name='PctLargHouseFam' ordinal='67' />
+            <column datatype='real' name='PctLargHouseOccup' ordinal='68' />
+            <column datatype='real' name='PersPerOccupHous' ordinal='69' />
+            <column datatype='real' name='PersPerOwnOccHous' ordinal='70' />
+            <column datatype='real' name='PersPerRentOccHous' ordinal='71' />
+            <column datatype='real' name='PctPersOwnOccup' ordinal='72' />
+            <column datatype='real' name='PctPersDenseHous' ordinal='73' />
+            <column datatype='real' name='PctHousLess3BR' ordinal='74' />
+            <column datatype='real' name='MedNumBR' ordinal='75' />
+            <column datatype='real' name='HousVacant' ordinal='76' />
+            <column datatype='real' name='PctHousOccup' ordinal='77' />
+            <column datatype='real' name='PctHousOwnOcc' ordinal='78' />
+            <column datatype='real' name='PctVacantBoarded' ordinal='79' />
+            <column datatype='real' name='PctVacMore6Mos' ordinal='80' />
+            <column datatype='real' name='MedYrHousBuilt' ordinal='81' />
+            <column datatype='real' name='PctHousNoPhone' ordinal='82' />
+            <column datatype='real' name='PctWOFullPlumb' ordinal='83' />
+            <column datatype='real' name='OwnOccLowQuart' ordinal='84' />
+            <column datatype='real' name='OwnOccMedVal' ordinal='85' />
+            <column datatype='real' name='OwnOccHiQuart' ordinal='86' />
+            <column datatype='real' name='RentLowQ' ordinal='87' />
+            <column datatype='real' name='RentMedian' ordinal='88' />
+            <column datatype='real' name='RentHighQ' ordinal='89' />
+            <column datatype='real' name='MedRent' ordinal='90' />
+            <column datatype='real' name='MedRentPctHousInc' ordinal='91' />
+            <column datatype='real' name='MedOwnCostPctInc' ordinal='92' />
+            <column datatype='real' name='MedOwnCostPctIncNoMtg' ordinal='93' />
+            <column datatype='real' name='NumInShelters' ordinal='94' />
+            <column datatype='real' name='NumStreet' ordinal='95' />
+            <column datatype='real' name='PctForeignBorn' ordinal='96' />
+            <column datatype='real' name='PctBornSameState' ordinal='97' />
+            <column datatype='real' name='PctSameHouse85' ordinal='98' />
+            <column datatype='real' name='PctSameCity85' ordinal='99' />
+            <column datatype='real' name='PctSameState85' ordinal='100' />
+            <column datatype='string' name='LemasSwornFT' ordinal='101' />
+            <column datatype='string' name='LemasSwFTPerPop' ordinal='102' />
+            <column datatype='string' name='LemasSwFTFieldOps' ordinal='103' />
+            <column datatype='string' name='LemasSwFTFieldPerPop' ordinal='104' />
+            <column datatype='string' name='LemasTotalReq' ordinal='105' />
+            <column datatype='string' name='LemasTotReqPerPop' ordinal='106' />
+            <column datatype='string' name='PolicReqPerOffic' ordinal='107' />
+            <column datatype='string' name='PolicPerPop' ordinal='108' />
+            <column datatype='string' name='RacialMatchCommPol' ordinal='109' />
+            <column datatype='string' name='PctPolicWhite' ordinal='110' />
+            <column datatype='string' name='PctPolicBlack' ordinal='111' />
+            <column datatype='string' name='PctPolicHisp' ordinal='112' />
+            <column datatype='string' name='PctPolicAsian' ordinal='113' />
+            <column datatype='string' name='PctPolicMinor' ordinal='114' />
+            <column datatype='string' name='OfficAssgnDrugUnits' ordinal='115' />
+            <column datatype='string' name='NumKindsDrugsSeiz' ordinal='116' />
+            <column datatype='string' name='PolicAveOTWorked' ordinal='117' />
+            <column datatype='real' name='LandArea' ordinal='118' />
+            <column datatype='real' name='PopDens' ordinal='119' />
+            <column datatype='real' name='PctUsePubTrans' ordinal='120' />
+            <column datatype='string' name='PolicCars' ordinal='121' />
+            <column datatype='string' name='PolicOperBudg' ordinal='122' />
+            <column datatype='string' name='LemasPctPolicOnPatr' ordinal='123' />
+            <column datatype='string' name='LemasGangUnitDeploy' ordinal='124' />
+            <column datatype='real' name='LemasPctOfficDrugUn' ordinal='125' />
+            <column datatype='string' name='PolicBudgPerPop' ordinal='126' />
+            <column datatype='real' name='ViolentCrimesPerPop' ordinal='127' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[communities]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:DX1995:no:A1:DX1995:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>state</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[state]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>state</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>county</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[county]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>county</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>community</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[community]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>community</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>communityname</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[communityname]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>communityname</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fold</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[fold]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>fold</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[population]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>population</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>householdsize</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[householdsize]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>householdsize</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>racepctblack</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[racepctblack]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>racepctblack</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>racePctWhite</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[racePctWhite]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>racePctWhite</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>racePctAsian</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[racePctAsian]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>racePctAsian</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>racePctHisp</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[racePctHisp]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>racePctHisp</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>agePct12t21</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[agePct12t21]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>agePct12t21</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>agePct12t29</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[agePct12t29]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>agePct12t29</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>agePct16t24</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[agePct16t24]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>agePct16t24</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>agePct65up</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[agePct65up]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>agePct65up</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>numbUrban</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[numbUrban]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>numbUrban</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pctUrban</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pctUrban]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>pctUrban</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>medIncome</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[medIncome]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>medIncome</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pctWWage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pctWWage]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>pctWWage</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pctWFarmSelf</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pctWFarmSelf]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>pctWFarmSelf</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pctWInvInc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pctWInvInc]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>pctWInvInc</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pctWSocSec</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pctWSocSec]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>pctWSocSec</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pctWPubAsst</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pctWPubAsst]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>pctWPubAsst</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pctWRetire</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pctWRetire]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>pctWRetire</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>medFamInc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[medFamInc]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>medFamInc</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>perCapInc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[perCapInc]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>perCapInc</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>whitePerCap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[whitePerCap]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>whitePerCap</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>blackPerCap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[blackPerCap]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>blackPerCap</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>indianPerCap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[indianPerCap]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>indianPerCap</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AsianPerCap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AsianPerCap]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>AsianPerCap</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OtherPerCap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OtherPerCap]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>OtherPerCap</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HispPerCap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[HispPerCap]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>HispPerCap</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NumUnderPov</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NumUnderPov]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>NumUnderPov</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctPopUnderPov</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctPopUnderPov]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctPopUnderPov</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctLess9thGrade</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctLess9thGrade]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctLess9thGrade</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctNotHSGrad</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctNotHSGrad]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctNotHSGrad</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctBSorMore</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctBSorMore]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctBSorMore</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctUnemployed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctUnemployed]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctUnemployed</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctEmploy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctEmploy]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctEmploy</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctEmplManu</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctEmplManu]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctEmplManu</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctEmplProfServ</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctEmplProfServ]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctEmplProfServ</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctOccupManu</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctOccupManu]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctOccupManu</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctOccupMgmtProf</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctOccupMgmtProf]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctOccupMgmtProf</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MalePctDivorce</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MalePctDivorce]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>MalePctDivorce</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MalePctNevMarr</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MalePctNevMarr]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>MalePctNevMarr</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FemalePctDiv</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FemalePctDiv]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>FemalePctDiv</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotalPctDiv</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TotalPctDiv]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>TotalPctDiv</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PersPerFam</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PersPerFam]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PersPerFam</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctFam2Par</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctFam2Par]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctFam2Par</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctKids2Par</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctKids2Par]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctKids2Par</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctYoungKids2Par</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctYoungKids2Par]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctYoungKids2Par</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctTeen2Par</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctTeen2Par]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctTeen2Par</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctWorkMomYoungKids</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctWorkMomYoungKids]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctWorkMomYoungKids</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctWorkMom</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctWorkMom]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctWorkMom</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NumIlleg</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NumIlleg]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>NumIlleg</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctIlleg</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctIlleg]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctIlleg</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NumImmig</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NumImmig]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>NumImmig</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctImmigRecent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctImmigRecent]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctImmigRecent</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctImmigRec5</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctImmigRec5]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctImmigRec5</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctImmigRec8</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctImmigRec8]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctImmigRec8</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctImmigRec10</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctImmigRec10]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctImmigRec10</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctRecentImmig</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctRecentImmig]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctRecentImmig</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctRecImmig5</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctRecImmig5]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctRecImmig5</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctRecImmig8</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctRecImmig8]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctRecImmig8</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctRecImmig10</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctRecImmig10]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctRecImmig10</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctSpeakEnglOnly</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctSpeakEnglOnly]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctSpeakEnglOnly</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctNotSpeakEnglWell</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctNotSpeakEnglWell]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctNotSpeakEnglWell</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctLargHouseFam</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctLargHouseFam]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctLargHouseFam</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctLargHouseOccup</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctLargHouseOccup]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctLargHouseOccup</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PersPerOccupHous</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PersPerOccupHous]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PersPerOccupHous</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PersPerOwnOccHous</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PersPerOwnOccHous]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PersPerOwnOccHous</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PersPerRentOccHous</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PersPerRentOccHous]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PersPerRentOccHous</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctPersOwnOccup</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctPersOwnOccup]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctPersOwnOccup</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctPersDenseHous</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctPersDenseHous]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctPersDenseHous</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctHousLess3BR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctHousLess3BR]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctHousLess3BR</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedNumBR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedNumBR]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>MedNumBR</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HousVacant</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[HousVacant]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>HousVacant</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctHousOccup</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctHousOccup]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctHousOccup</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctHousOwnOcc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctHousOwnOcc]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctHousOwnOcc</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctVacantBoarded</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctVacantBoarded]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctVacantBoarded</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctVacMore6Mos</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctVacMore6Mos]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctVacMore6Mos</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedYrHousBuilt</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedYrHousBuilt]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>MedYrHousBuilt</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctHousNoPhone</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctHousNoPhone]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctHousNoPhone</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctWOFullPlumb</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctWOFullPlumb]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctWOFullPlumb</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OwnOccLowQuart</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OwnOccLowQuart]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>OwnOccLowQuart</remote-alias>
+            <ordinal>84</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OwnOccMedVal</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OwnOccMedVal]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>OwnOccMedVal</remote-alias>
+            <ordinal>85</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OwnOccHiQuart</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OwnOccHiQuart]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>OwnOccHiQuart</remote-alias>
+            <ordinal>86</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RentLowQ</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RentLowQ]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>RentLowQ</remote-alias>
+            <ordinal>87</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RentMedian</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RentMedian]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>RentMedian</remote-alias>
+            <ordinal>88</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RentHighQ</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RentHighQ]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>RentHighQ</remote-alias>
+            <ordinal>89</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedRent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedRent]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>MedRent</remote-alias>
+            <ordinal>90</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedRentPctHousInc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedRentPctHousInc]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>MedRentPctHousInc</remote-alias>
+            <ordinal>91</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedOwnCostPctInc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedOwnCostPctInc]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>MedOwnCostPctInc</remote-alias>
+            <ordinal>92</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedOwnCostPctIncNoMtg</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedOwnCostPctIncNoMtg]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>MedOwnCostPctIncNoMtg</remote-alias>
+            <ordinal>93</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NumInShelters</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NumInShelters]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>NumInShelters</remote-alias>
+            <ordinal>94</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NumStreet</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NumStreet]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>NumStreet</remote-alias>
+            <ordinal>95</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctForeignBorn</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctForeignBorn]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctForeignBorn</remote-alias>
+            <ordinal>96</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctBornSameState</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctBornSameState]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctBornSameState</remote-alias>
+            <ordinal>97</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctSameHouse85</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctSameHouse85]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctSameHouse85</remote-alias>
+            <ordinal>98</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctSameCity85</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctSameCity85]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctSameCity85</remote-alias>
+            <ordinal>99</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctSameState85</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctSameState85]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctSameState85</remote-alias>
+            <ordinal>100</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LemasSwornFT</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[LemasSwornFT]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>LemasSwornFT</remote-alias>
+            <ordinal>101</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LemasSwFTPerPop</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[LemasSwFTPerPop]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>LemasSwFTPerPop</remote-alias>
+            <ordinal>102</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LemasSwFTFieldOps</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[LemasSwFTFieldOps]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>LemasSwFTFieldOps</remote-alias>
+            <ordinal>103</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LemasSwFTFieldPerPop</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[LemasSwFTFieldPerPop]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>LemasSwFTFieldPerPop</remote-alias>
+            <ordinal>104</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LemasTotalReq</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[LemasTotalReq]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>LemasTotalReq</remote-alias>
+            <ordinal>105</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LemasTotReqPerPop</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[LemasTotReqPerPop]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>LemasTotReqPerPop</remote-alias>
+            <ordinal>106</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PolicReqPerOffic</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PolicReqPerOffic]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PolicReqPerOffic</remote-alias>
+            <ordinal>107</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PolicPerPop</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PolicPerPop]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PolicPerPop</remote-alias>
+            <ordinal>108</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RacialMatchCommPol</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[RacialMatchCommPol]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>RacialMatchCommPol</remote-alias>
+            <ordinal>109</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctPolicWhite</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PctPolicWhite]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctPolicWhite</remote-alias>
+            <ordinal>110</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctPolicBlack</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PctPolicBlack]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctPolicBlack</remote-alias>
+            <ordinal>111</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctPolicHisp</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PctPolicHisp]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctPolicHisp</remote-alias>
+            <ordinal>112</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctPolicAsian</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PctPolicAsian]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctPolicAsian</remote-alias>
+            <ordinal>113</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctPolicMinor</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PctPolicMinor]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctPolicMinor</remote-alias>
+            <ordinal>114</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OfficAssgnDrugUnits</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[OfficAssgnDrugUnits]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>OfficAssgnDrugUnits</remote-alias>
+            <ordinal>115</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NumKindsDrugsSeiz</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[NumKindsDrugsSeiz]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>NumKindsDrugsSeiz</remote-alias>
+            <ordinal>116</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PolicAveOTWorked</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PolicAveOTWorked]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PolicAveOTWorked</remote-alias>
+            <ordinal>117</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LandArea</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[LandArea]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>LandArea</remote-alias>
+            <ordinal>118</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PopDens</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PopDens]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PopDens</remote-alias>
+            <ordinal>119</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctUsePubTrans</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctUsePubTrans]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PctUsePubTrans</remote-alias>
+            <ordinal>120</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PolicCars</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PolicCars]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PolicCars</remote-alias>
+            <ordinal>121</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PolicOperBudg</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PolicOperBudg]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PolicOperBudg</remote-alias>
+            <ordinal>122</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LemasPctPolicOnPatr</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[LemasPctPolicOnPatr]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>LemasPctPolicOnPatr</remote-alias>
+            <ordinal>123</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LemasGangUnitDeploy</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[LemasGangUnitDeploy]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>LemasGangUnitDeploy</remote-alias>
+            <ordinal>124</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LemasPctOfficDrugUn</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[LemasPctOfficDrugUn]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>LemasPctOfficDrugUn</remote-alias>
+            <ordinal>125</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PolicBudgPerPop</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PolicBudgPerPop]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>PolicBudgPerPop</remote-alias>
+            <ordinal>126</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ViolentCrimesPerPop</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ViolentCrimesPerPop]</local-name>
+            <parent-name>[communities]</parent-name>
+            <remote-alias>ViolentCrimesPerPop</remote-alias>
+            <ordinal>127</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[communities_CE88081B514A40C28701ACBE5CE1497C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Asian Per Cap' datatype='real' name='[AsianPerCap]' role='measure' type='quantitative' />
+      <column caption='Female Pct Div' datatype='real' name='[FemalePctDiv]' role='measure' type='quantitative' />
+      <column caption='Hisp Per Cap' datatype='real' name='[HispPerCap]' role='measure' type='quantitative' />
+      <column caption='Hous Vacant' datatype='real' name='[HousVacant]' role='measure' type='quantitative' />
+      <column caption='Land Area' datatype='real' name='[LandArea]' role='measure' type='quantitative' />
+      <column caption='Lemas Gang Unit Deploy' datatype='string' name='[LemasGangUnitDeploy]' role='dimension' type='nominal' />
+      <column caption='Lemas Pct Offic Drug Un' datatype='real' name='[LemasPctOfficDrugUn]' role='measure' type='quantitative' />
+      <column caption='Lemas Pct Polic On Patr' datatype='string' name='[LemasPctPolicOnPatr]' role='dimension' type='nominal' />
+      <column caption='Lemas Sw FT Field Ops' datatype='string' name='[LemasSwFTFieldOps]' role='dimension' type='nominal' />
+      <column caption='Lemas Sw FT Field Per Pop' datatype='string' name='[LemasSwFTFieldPerPop]' role='dimension' type='nominal' />
+      <column caption='Lemas Sw FT Per Pop' datatype='string' name='[LemasSwFTPerPop]' role='dimension' type='nominal' />
+      <column caption='Lemas Sworn FT' datatype='string' name='[LemasSwornFT]' role='dimension' type='nominal' />
+      <column caption='Lemas Tot Req Per Pop' datatype='string' name='[LemasTotReqPerPop]' role='dimension' type='nominal' />
+      <column caption='Lemas Total Req' datatype='string' name='[LemasTotalReq]' role='dimension' type='nominal' />
+      <column caption='Male Pct Divorce' datatype='real' name='[MalePctDivorce]' role='measure' type='quantitative' />
+      <column caption='Male Pct Nev Marr' datatype='real' name='[MalePctNevMarr]' role='measure' type='quantitative' />
+      <column caption='Med Num BR' datatype='real' name='[MedNumBR]' role='measure' type='quantitative' />
+      <column caption='Med Own Cost Pct Inc No Mtg' datatype='real' name='[MedOwnCostPctIncNoMtg]' role='measure' type='quantitative' />
+      <column caption='Med Own Cost Pct Inc' datatype='real' name='[MedOwnCostPctInc]' role='measure' type='quantitative' />
+      <column caption='Med Rent Pct Hous Inc' datatype='real' name='[MedRentPctHousInc]' role='measure' type='quantitative' />
+      <column caption='Med Rent' datatype='real' name='[MedRent]' role='measure' type='quantitative' />
+      <column caption='Med Yr Hous Built' datatype='real' name='[MedYrHousBuilt]' role='measure' type='quantitative' />
+      <column caption='Num Illeg' datatype='real' name='[NumIlleg]' role='measure' type='quantitative' />
+      <column caption='Num Immig' datatype='real' name='[NumImmig]' role='measure' type='quantitative' />
+      <column caption='Num In Shelters' datatype='real' name='[NumInShelters]' role='measure' type='quantitative' />
+      <column caption='Num Kinds Drugs Seiz' datatype='string' name='[NumKindsDrugsSeiz]' role='dimension' type='nominal' />
+      <column caption='Num Street' datatype='real' name='[NumStreet]' role='measure' type='quantitative' />
+      <column caption='Num Under Pov' datatype='real' name='[NumUnderPov]' role='measure' type='quantitative' />
+      <column caption='Offic Assgn Drug Units' datatype='string' name='[OfficAssgnDrugUnits]' role='dimension' type='nominal' />
+      <column caption='Other Per Cap' datatype='real' name='[OtherPerCap]' role='measure' type='quantitative' />
+      <column caption='Own Occ Hi Quart' datatype='real' name='[OwnOccHiQuart]' role='measure' type='quantitative' />
+      <column caption='Own Occ Low Quart' datatype='real' name='[OwnOccLowQuart]' role='measure' type='quantitative' />
+      <column caption='Own Occ Med Val' datatype='real' name='[OwnOccMedVal]' role='measure' type='quantitative' />
+      <column caption='Pct B Sor More' datatype='real' name='[PctBSorMore]' role='measure' type='quantitative' />
+      <column caption='Pct Born Same State' datatype='real' name='[PctBornSameState]' role='measure' type='quantitative' />
+      <column caption='Pct Empl Manu' datatype='real' name='[PctEmplManu]' role='measure' type='quantitative' />
+      <column caption='Pct Empl Prof Serv' datatype='real' name='[PctEmplProfServ]' role='measure' type='quantitative' />
+      <column caption='Pct Employ' datatype='real' name='[PctEmploy]' role='measure' type='quantitative' />
+      <column caption='Pct Foreign Born' datatype='real' name='[PctForeignBorn]' role='measure' type='quantitative' />
+      <column caption='Pct Hous No Phone' datatype='real' name='[PctHousNoPhone]' role='measure' type='quantitative' />
+      <column caption='Pct Hous Occup' datatype='real' name='[PctHousOccup]' role='measure' type='quantitative' />
+      <column caption='Pct Hous Own Occ' datatype='real' name='[PctHousOwnOcc]' role='measure' type='quantitative' />
+      <column caption='Pct Illeg' datatype='real' name='[PctIlleg]' role='measure' type='quantitative' />
+      <column caption='Pct Immig Recent' datatype='real' name='[PctImmigRecent]' role='measure' type='quantitative' />
+      <column caption='Pct Larg House Fam' datatype='real' name='[PctLargHouseFam]' role='measure' type='quantitative' />
+      <column caption='Pct Larg House Occup' datatype='real' name='[PctLargHouseOccup]' role='measure' type='quantitative' />
+      <column caption='Pct Not HS Grad' datatype='real' name='[PctNotHSGrad]' role='measure' type='quantitative' />
+      <column caption='Pct Not Speak Engl Well' datatype='real' name='[PctNotSpeakEnglWell]' role='measure' type='quantitative' />
+      <column caption='Pct Occup Manu' datatype='real' name='[PctOccupManu]' role='measure' type='quantitative' />
+      <column caption='Pct Occup Mgmt Prof' datatype='real' name='[PctOccupMgmtProf]' role='measure' type='quantitative' />
+      <column caption='Pct Pers Dense Hous' datatype='real' name='[PctPersDenseHous]' role='measure' type='quantitative' />
+      <column caption='Pct Pers Own Occup' datatype='real' name='[PctPersOwnOccup]' role='measure' type='quantitative' />
+      <column caption='Pct Polic Asian' datatype='string' name='[PctPolicAsian]' role='dimension' type='nominal' />
+      <column caption='Pct Polic Black' datatype='string' name='[PctPolicBlack]' role='dimension' type='nominal' />
+      <column caption='Pct Polic Hisp' datatype='string' name='[PctPolicHisp]' role='dimension' type='nominal' />
+      <column caption='Pct Polic Minor' datatype='string' name='[PctPolicMinor]' role='dimension' type='nominal' />
+      <column caption='Pct Polic White' datatype='string' name='[PctPolicWhite]' role='dimension' type='nominal' />
+      <column caption='Pct Pop Under Pov' datatype='real' name='[PctPopUnderPov]' role='measure' type='quantitative' />
+      <column caption='Pct Recent Immig' datatype='real' name='[PctRecentImmig]' role='measure' type='quantitative' />
+      <column caption='Pct Speak Engl Only' datatype='real' name='[PctSpeakEnglOnly]' role='measure' type='quantitative' />
+      <column caption='Pct Unemployed' datatype='real' name='[PctUnemployed]' role='measure' type='quantitative' />
+      <column caption='Pct Use Pub Trans' datatype='real' name='[PctUsePubTrans]' role='measure' type='quantitative' />
+      <column caption='Pct Vacant Boarded' datatype='real' name='[PctVacantBoarded]' role='measure' type='quantitative' />
+      <column caption='Pct WO Full Plumb' datatype='real' name='[PctWOFullPlumb]' role='measure' type='quantitative' />
+      <column caption='Pct Work Mom Young Kids' datatype='real' name='[PctWorkMomYoungKids]' role='measure' type='quantitative' />
+      <column caption='Pct Work Mom' datatype='real' name='[PctWorkMom]' role='measure' type='quantitative' />
+      <column caption='Pers Per Fam' datatype='real' name='[PersPerFam]' role='measure' type='quantitative' />
+      <column caption='Pers Per Occup Hous' datatype='real' name='[PersPerOccupHous]' role='measure' type='quantitative' />
+      <column caption='Pers Per Own Occ Hous' datatype='real' name='[PersPerOwnOccHous]' role='measure' type='quantitative' />
+      <column caption='Pers Per Rent Occ Hous' datatype='real' name='[PersPerRentOccHous]' role='measure' type='quantitative' />
+      <column caption='Polic Ave OT Worked' datatype='string' name='[PolicAveOTWorked]' role='dimension' type='nominal' />
+      <column caption='Polic Budg Per Pop' datatype='string' name='[PolicBudgPerPop]' role='dimension' type='nominal' />
+      <column caption='Polic Cars' datatype='string' name='[PolicCars]' role='dimension' type='nominal' />
+      <column caption='Polic Oper Budg' datatype='string' name='[PolicOperBudg]' role='dimension' type='nominal' />
+      <column caption='Polic Per Pop' datatype='string' name='[PolicPerPop]' role='dimension' type='nominal' />
+      <column caption='Polic Req Per Offic' datatype='string' name='[PolicReqPerOffic]' role='dimension' type='nominal' />
+      <column caption='Pop Dens' datatype='real' name='[PopDens]' role='measure' type='quantitative' />
+      <column caption='Racial Match Comm Pol' datatype='string' name='[RacialMatchCommPol]' role='dimension' type='nominal' />
+      <column caption='Rent High Q' datatype='real' name='[RentHighQ]' role='measure' type='quantitative' />
+      <column caption='Rent Low Q' datatype='real' name='[RentLowQ]' role='measure' type='quantitative' />
+      <column caption='Rent Median' datatype='real' name='[RentMedian]' role='measure' type='quantitative' />
+      <column caption='Total Pct Div' datatype='real' name='[TotalPctDiv]' role='measure' type='quantitative' />
+      <column caption='Violent Crimes Per Pop' datatype='real' name='[ViolentCrimesPerPop]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='communities' datatype='table' name='[__tableau_internal_object_id__].[communities_CE88081B514A40C28701ACBE5CE1497C]' role='measure' type='quantitative' />
+      <column caption='Black Per Cap' datatype='real' name='[blackPerCap]' role='measure' type='quantitative' />
+      <column caption='Community' datatype='string' name='[community]' role='dimension' type='nominal' />
+      <column caption='Community Name' datatype='string' name='[communityname]' role='dimension' type='nominal' />
+      <column caption='County' datatype='string' name='[county]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column caption='Fold' datatype='integer' name='[fold]' role='measure' type='quantitative' />
+      <column caption='Household Size' datatype='real' name='[householdsize]' role='measure' type='quantitative' />
+      <column caption='Indian Per Cap' datatype='real' name='[indianPerCap]' role='measure' type='quantitative' />
+      <column caption='Med Fam Inc' datatype='real' name='[medFamInc]' role='measure' type='quantitative' />
+      <column caption='Med Income' datatype='real' name='[medIncome]' role='measure' type='quantitative' />
+      <column caption='Numb Urban' datatype='real' name='[numbUrban]' role='measure' type='quantitative' />
+      <column caption='Pct Urban' datatype='real' name='[pctUrban]' role='measure' type='quantitative' />
+      <column caption='Pct W Farm Self' datatype='real' name='[pctWFarmSelf]' role='measure' type='quantitative' />
+      <column caption='Pct W Inv Inc' datatype='real' name='[pctWInvInc]' role='measure' type='quantitative' />
+      <column caption='Pct W Pub Asst' datatype='real' name='[pctWPubAsst]' role='measure' type='quantitative' />
+      <column caption='Pct W Retire' datatype='real' name='[pctWRetire]' role='measure' type='quantitative' />
+      <column caption='Pct W Soc Sec' datatype='real' name='[pctWSocSec]' role='measure' type='quantitative' />
+      <column caption='Pct W Wage' datatype='real' name='[pctWWage]' role='measure' type='quantitative' />
+      <column caption='Per Cap Inc' datatype='real' name='[perCapInc]' role='measure' type='quantitative' />
+      <column caption='Population' datatype='real' name='[population]' role='measure' type='quantitative' />
+      <column caption='Race Pct Asian' datatype='real' name='[racePctAsian]' role='measure' type='quantitative' />
+      <column caption='Race Pct Hisp' datatype='real' name='[racePctHisp]' role='measure' type='quantitative' />
+      <column caption='Race Pct White' datatype='real' name='[racePctWhite]' role='measure' type='quantitative' />
+      <column caption='% of population that is African-American' datatype='real' name='[racepctblack]' role='measure' type='quantitative' />
+      <column caption='State' datatype='integer' name='[state]' role='measure' type='quantitative' />
+      <column caption='White Per Cap' datatype='real' name='[whitePerCap]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='communities' id='communities_CE88081B514A40C28701ACBE5CE1497C'>
+            <properties context=''>
+              <relation connection='excel-direct.1b815vg10qkw1l1ar8hkz0f33buj' name='communities' table='[communities$]' type='table'>
+                <columns gridOrigin='A1:DX1995:no:A1:DX1995:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='state' ordinal='0' />
+                  <column datatype='string' name='county' ordinal='1' />
+                  <column datatype='string' name='community' ordinal='2' />
+                  <column datatype='string' name='communityname' ordinal='3' />
+                  <column datatype='integer' name='fold' ordinal='4' />
+                  <column datatype='real' name='population' ordinal='5' />
+                  <column datatype='real' name='householdsize' ordinal='6' />
+                  <column datatype='real' name='racepctblack' ordinal='7' />
+                  <column datatype='real' name='racePctWhite' ordinal='8' />
+                  <column datatype='real' name='racePctAsian' ordinal='9' />
+                  <column datatype='real' name='racePctHisp' ordinal='10' />
+                  <column datatype='real' name='agePct12t21' ordinal='11' />
+                  <column datatype='real' name='agePct12t29' ordinal='12' />
+                  <column datatype='real' name='agePct16t24' ordinal='13' />
+                  <column datatype='real' name='agePct65up' ordinal='14' />
+                  <column datatype='real' name='numbUrban' ordinal='15' />
+                  <column datatype='real' name='pctUrban' ordinal='16' />
+                  <column datatype='real' name='medIncome' ordinal='17' />
+                  <column datatype='real' name='pctWWage' ordinal='18' />
+                  <column datatype='real' name='pctWFarmSelf' ordinal='19' />
+                  <column datatype='real' name='pctWInvInc' ordinal='20' />
+                  <column datatype='real' name='pctWSocSec' ordinal='21' />
+                  <column datatype='real' name='pctWPubAsst' ordinal='22' />
+                  <column datatype='real' name='pctWRetire' ordinal='23' />
+                  <column datatype='real' name='medFamInc' ordinal='24' />
+                  <column datatype='real' name='perCapInc' ordinal='25' />
+                  <column datatype='real' name='whitePerCap' ordinal='26' />
+                  <column datatype='real' name='blackPerCap' ordinal='27' />
+                  <column datatype='real' name='indianPerCap' ordinal='28' />
+                  <column datatype='real' name='AsianPerCap' ordinal='29' />
+                  <column datatype='real' name='OtherPerCap' ordinal='30' />
+                  <column datatype='real' name='HispPerCap' ordinal='31' />
+                  <column datatype='real' name='NumUnderPov' ordinal='32' />
+                  <column datatype='real' name='PctPopUnderPov' ordinal='33' />
+                  <column datatype='real' name='PctLess9thGrade' ordinal='34' />
+                  <column datatype='real' name='PctNotHSGrad' ordinal='35' />
+                  <column datatype='real' name='PctBSorMore' ordinal='36' />
+                  <column datatype='real' name='PctUnemployed' ordinal='37' />
+                  <column datatype='real' name='PctEmploy' ordinal='38' />
+                  <column datatype='real' name='PctEmplManu' ordinal='39' />
+                  <column datatype='real' name='PctEmplProfServ' ordinal='40' />
+                  <column datatype='real' name='PctOccupManu' ordinal='41' />
+                  <column datatype='real' name='PctOccupMgmtProf' ordinal='42' />
+                  <column datatype='real' name='MalePctDivorce' ordinal='43' />
+                  <column datatype='real' name='MalePctNevMarr' ordinal='44' />
+                  <column datatype='real' name='FemalePctDiv' ordinal='45' />
+                  <column datatype='real' name='TotalPctDiv' ordinal='46' />
+                  <column datatype='real' name='PersPerFam' ordinal='47' />
+                  <column datatype='real' name='PctFam2Par' ordinal='48' />
+                  <column datatype='real' name='PctKids2Par' ordinal='49' />
+                  <column datatype='real' name='PctYoungKids2Par' ordinal='50' />
+                  <column datatype='real' name='PctTeen2Par' ordinal='51' />
+                  <column datatype='real' name='PctWorkMomYoungKids' ordinal='52' />
+                  <column datatype='real' name='PctWorkMom' ordinal='53' />
+                  <column datatype='real' name='NumIlleg' ordinal='54' />
+                  <column datatype='real' name='PctIlleg' ordinal='55' />
+                  <column datatype='real' name='NumImmig' ordinal='56' />
+                  <column datatype='real' name='PctImmigRecent' ordinal='57' />
+                  <column datatype='real' name='PctImmigRec5' ordinal='58' />
+                  <column datatype='real' name='PctImmigRec8' ordinal='59' />
+                  <column datatype='real' name='PctImmigRec10' ordinal='60' />
+                  <column datatype='real' name='PctRecentImmig' ordinal='61' />
+                  <column datatype='real' name='PctRecImmig5' ordinal='62' />
+                  <column datatype='real' name='PctRecImmig8' ordinal='63' />
+                  <column datatype='real' name='PctRecImmig10' ordinal='64' />
+                  <column datatype='real' name='PctSpeakEnglOnly' ordinal='65' />
+                  <column datatype='real' name='PctNotSpeakEnglWell' ordinal='66' />
+                  <column datatype='real' name='PctLargHouseFam' ordinal='67' />
+                  <column datatype='real' name='PctLargHouseOccup' ordinal='68' />
+                  <column datatype='real' name='PersPerOccupHous' ordinal='69' />
+                  <column datatype='real' name='PersPerOwnOccHous' ordinal='70' />
+                  <column datatype='real' name='PersPerRentOccHous' ordinal='71' />
+                  <column datatype='real' name='PctPersOwnOccup' ordinal='72' />
+                  <column datatype='real' name='PctPersDenseHous' ordinal='73' />
+                  <column datatype='real' name='PctHousLess3BR' ordinal='74' />
+                  <column datatype='real' name='MedNumBR' ordinal='75' />
+                  <column datatype='real' name='HousVacant' ordinal='76' />
+                  <column datatype='real' name='PctHousOccup' ordinal='77' />
+                  <column datatype='real' name='PctHousOwnOcc' ordinal='78' />
+                  <column datatype='real' name='PctVacantBoarded' ordinal='79' />
+                  <column datatype='real' name='PctVacMore6Mos' ordinal='80' />
+                  <column datatype='real' name='MedYrHousBuilt' ordinal='81' />
+                  <column datatype='real' name='PctHousNoPhone' ordinal='82' />
+                  <column datatype='real' name='PctWOFullPlumb' ordinal='83' />
+                  <column datatype='real' name='OwnOccLowQuart' ordinal='84' />
+                  <column datatype='real' name='OwnOccMedVal' ordinal='85' />
+                  <column datatype='real' name='OwnOccHiQuart' ordinal='86' />
+                  <column datatype='real' name='RentLowQ' ordinal='87' />
+                  <column datatype='real' name='RentMedian' ordinal='88' />
+                  <column datatype='real' name='RentHighQ' ordinal='89' />
+                  <column datatype='real' name='MedRent' ordinal='90' />
+                  <column datatype='real' name='MedRentPctHousInc' ordinal='91' />
+                  <column datatype='real' name='MedOwnCostPctInc' ordinal='92' />
+                  <column datatype='real' name='MedOwnCostPctIncNoMtg' ordinal='93' />
+                  <column datatype='real' name='NumInShelters' ordinal='94' />
+                  <column datatype='real' name='NumStreet' ordinal='95' />
+                  <column datatype='real' name='PctForeignBorn' ordinal='96' />
+                  <column datatype='real' name='PctBornSameState' ordinal='97' />
+                  <column datatype='real' name='PctSameHouse85' ordinal='98' />
+                  <column datatype='real' name='PctSameCity85' ordinal='99' />
+                  <column datatype='real' name='PctSameState85' ordinal='100' />
+                  <column datatype='string' name='LemasSwornFT' ordinal='101' />
+                  <column datatype='string' name='LemasSwFTPerPop' ordinal='102' />
+                  <column datatype='string' name='LemasSwFTFieldOps' ordinal='103' />
+                  <column datatype='string' name='LemasSwFTFieldPerPop' ordinal='104' />
+                  <column datatype='string' name='LemasTotalReq' ordinal='105' />
+                  <column datatype='string' name='LemasTotReqPerPop' ordinal='106' />
+                  <column datatype='string' name='PolicReqPerOffic' ordinal='107' />
+                  <column datatype='string' name='PolicPerPop' ordinal='108' />
+                  <column datatype='string' name='RacialMatchCommPol' ordinal='109' />
+                  <column datatype='string' name='PctPolicWhite' ordinal='110' />
+                  <column datatype='string' name='PctPolicBlack' ordinal='111' />
+                  <column datatype='string' name='PctPolicHisp' ordinal='112' />
+                  <column datatype='string' name='PctPolicAsian' ordinal='113' />
+                  <column datatype='string' name='PctPolicMinor' ordinal='114' />
+                  <column datatype='string' name='OfficAssgnDrugUnits' ordinal='115' />
+                  <column datatype='string' name='NumKindsDrugsSeiz' ordinal='116' />
+                  <column datatype='string' name='PolicAveOTWorked' ordinal='117' />
+                  <column datatype='real' name='LandArea' ordinal='118' />
+                  <column datatype='real' name='PopDens' ordinal='119' />
+                  <column datatype='real' name='PctUsePubTrans' ordinal='120' />
+                  <column datatype='string' name='PolicCars' ordinal='121' />
+                  <column datatype='string' name='PolicOperBudg' ordinal='122' />
+                  <column datatype='string' name='LemasPctPolicOnPatr' ordinal='123' />
+                  <column datatype='string' name='LemasGangUnitDeploy' ordinal='124' />
+                  <column datatype='real' name='LemasPctOfficDrugUn' ordinal='125' />
+                  <column datatype='string' name='PolicBudgPerPop' ordinal='126' />
+                  <column datatype='real' name='ViolentCrimesPerPop' ordinal='127' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='communities (CommunitiesDataSet)' name='federated.06s07541bds4b111tf4vd1ejy2sl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.06s07541bds4b111tf4vd1ejy2sl'>
+            <column caption='Violent Crimes Per Pop' datatype='real' name='[ViolentCrimesPerPop]' role='measure' type='quantitative' />
+            <column caption='Community Name' datatype='string' name='[communityname]' role='dimension' type='nominal' />
+            <column caption='Med Fam Inc' datatype='real' name='[medFamInc]' role='measure' type='quantitative' />
+            <column-instance column='[communityname]' derivation='None' name='[none:communityname:nk]' pivot='key' type='nominal' />
+            <column-instance column='[ViolentCrimesPerPop]' derivation='Sum' name='[sum:ViolentCrimesPerPop:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[medFamInc]' derivation='Sum' name='[sum:medFamInc:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.06s07541bds4b111tf4vd1ejy2sl].[none:communityname:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.06s07541bds4b111tf4vd1ejy2sl].[sum:ViolentCrimesPerPop:qk]</rows>
+        <cols>[federated.06s07541bds4b111tf4vd1ejy2sl].[sum:medFamInc:qk]</cols>
+      </table>
+      <simple-id uuid='{B13EED18-A8D7-479D-886E-01471209AC0B}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.06s07541bds4b111tf4vd1ejy2sl].[none:communityname:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6F72B493-D3B7-4AE4-88AD-E435BD84CAF8}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      AElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
